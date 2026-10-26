@@ -1,0 +1,37 @@
+{
+  "name": "prism-loc",
+  "version": "1.0.0",
+  "description": "Zero-dependency lines-of-code counter: 38 languages, code / comment / blank split, GitHub language colours, largest files, markdown and JSON output. Respects .gitignore.",
+  "bin": {
+    "loc": "bin/loc.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "loc",
+    "cloc",
+    "lines-of-code",
+    "code-statistics",
+    "developer-tools",
+    "nodejs",
+    "terminal",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-loc.git"
+  },
+  "homepage": "https://github.com/krishyaa06/prism-loc#readme",
+  "engines": {
+    "node": ">=18.17"
+  }
+}
